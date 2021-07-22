@@ -1,0 +1,35 @@
+GET http://127.0.0.1:8000/api/api-endpoint HTTP/1.1
+Header: 1
+Content-Type: application/json
+
+{"user_id":"1",
+"start_datetime":"2021-05-25 00:22:21",
+"end_datetime":"2021-23-05 20:54:57"
+}
+###
+POST  http://127.0.0.1:8000/api/api-endpoint-auth HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer baLOLlFFqvhe07B05mawYJL05hliBqeWZkbVB6JV
+
+{"user_id":"1",
+"start_datetime":"2021-05-25 00:22:21",
+"end_datetime":"2022-05-25 06:08:53"
+
+}
+###
+
+POST  http://127.0.0.1:8000/api/api-endpoint HTTP/1.1
+Content-Type: application/json
+
+{"user_id":"1",
+"start_datetime":"2021-05-25 00:22:21",
+"end_datetime":"2022-05-25 06:08:53"
+
+}
+###
+POST  http://127.0.0.1:8000/api/api-endpoint HTTP/1.1
+Content-Type: application/json
+
+{
+"end_datetime":"2021-05-23 22:49:24"
+}
