@@ -39,7 +39,7 @@ return array(
     'Symfony\\Component\\CssSelector\\' => array($vendorDir . '/symfony/css-selector'),
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
     'Silber\\PageCache\\' => array($baseDir . '/page-cache-master/src', $vendorDir . '/page-cache-master/src'),
-    'RenatoMarinho\\LaravelPageSpeed\\' => array($baseDir . '/laravel-page-speed-master/src', $vendorDir . '/laravel-page-speed-masterr/src'),
+    'RenatoMarinho\\LaravelPageSpeed\\' => array($vendorDir . '/laravel-page-speed-master/src'),
     'Ramsey\\Uuid\\' => array($vendorDir . '/ramsey/uuid/src'),
     'Ramsey\\Collection\\' => array($vendorDir . '/ramsey/collection/src'),
     'Psy\\' => array($vendorDir . '/psy/psysh/src'),

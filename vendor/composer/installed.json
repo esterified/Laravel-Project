@@ -8172,6 +8172,7 @@
         },
         {
             "name": "laravel-page-speed-master",
+            "version": "2.0.0",
             "description": "Laravel Page Speed",
             "keywords": [
                 "laravel",

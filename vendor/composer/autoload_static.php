@@ -89,6 +89,7 @@ class ComposerStaticInit12fa11a5d4824abfd45e355f134f730c
         ),
         'R' => 
         array (
+            'RenatoMarinho\\LaravelPageSpeed\\' => 31,
             'Ramsey\\Uuid\\' => 12,
             'Ramsey\\Collection\\' => 18,
         ),
@@ -324,6 +325,10 @@ class ComposerStaticInit12fa11a5d4824abfd45e355f134f730c
         array (
             0 => __DIR__ . '/../..' . '/page-cache-master/src',
             1 => __DIR__ . '/..' . '/page-cache-master/src',
+        ),
+        'RenatoMarinho\\LaravelPageSpeed\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laravel-page-speed-master/src',
         ),
         'Ramsey\\Uuid\\' => 
         array (
@@ -581,6 +586,7 @@ class ComposerStaticInit12fa11a5d4824abfd45e355f134f730c
         'App\\Http\\Controllers\\searchController' => __DIR__ . '/../..' . '/app/Http/Controllers/searchController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
+        'App\\Http\\Middleware\\CacheResponse' => __DIR__ . '/../..' . '/app/Http/Middleware/CacheResponse.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
         'App\\Http\\Middleware\\PreventRequestsDuringMaintenance' => __DIR__ . '/../..' . '/app/Http/Middleware/PreventRequestsDuringMaintenance.php',
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
