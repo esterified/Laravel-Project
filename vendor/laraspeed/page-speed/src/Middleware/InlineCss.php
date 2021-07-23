@@ -8,6 +8,8 @@ class InlineCss extends PageSpeed
     private $class = [];
     private $style = [];
     private $inline = [];
+    private $itemz='';
+    
 
     public function apply($buffer)
     {
@@ -24,7 +26,7 @@ class InlineCss extends PageSpeed
 
             return [ 'page_speed_'.rand() => $item[0] ];
         })->unique();
-
+        //return $this->html;
         return $this->injectStyle()->injectClass()->fixHTML()->html;
     }
 
@@ -51,15 +53,17 @@ class InlineCss extends PageSpeed
     }
 
     private function injectClass()
-    {
+    { 
         collect($this->style)->each(function ($item) {
             $replace = [
                 '/style="'.$item['attributes'].'"/' => "class=\"{$item['class']}\"",
             ];
-
+            $this->itemz= $this->itemz.$item['attributes'].':'.$item['class'].',';
             $this->html = $this->replace($replace, $this->html);
+            
         });
-
+        //dd($this->itemz);
+        //dd($this->html);
         return $this;
     }
 
@@ -67,19 +71,20 @@ class InlineCss extends PageSpeed
     {
         $newHTML = [];
         $tmp = explode('<', $this->html);
-
+        //dd($tmp[2]);
         $replaceClass = [
             '/class="(.*?)"/' => "",
         ];
-
+         
         foreach ($tmp as $value) {
             preg_match_all('/class="(.*?)"/', $value, $matches);
-
+            
+           // echo $value;
             if (count($matches[1]) > 1) {
                 $replace = [
                     '/>/' => "class=\"".implode(' ', $matches[1])."\">",
                 ];
-
+                //dd($value);
                 $newHTML[] = str_replace(
                     '  ',
                     ' ',

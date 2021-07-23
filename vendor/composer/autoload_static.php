@@ -328,7 +328,8 @@ class ComposerStaticInit12fa11a5d4824abfd45e355f134f730c
         ),
         'RenatoMarinho\\LaravelPageSpeed\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/laravel-page-speed-master/src',
+            0 => __DIR__ . '/../..' . '/laraspeed/page-speed/src',
+            1 => __DIR__ . '/..' . '/laraspeed/page-speed/src',
         ),
         'Ramsey\\Uuid\\' => 
         array (
@@ -4611,6 +4612,17 @@ class ComposerStaticInit12fa11a5d4824abfd45e355f134f730c
         'Ramsey\\Uuid\\UuidInterface' => __DIR__ . '/..' . '/ramsey/uuid/src/UuidInterface.php',
         'Ramsey\\Uuid\\Validator\\GenericValidator' => __DIR__ . '/..' . '/ramsey/uuid/src/Validator/GenericValidator.php',
         'Ramsey\\Uuid\\Validator\\ValidatorInterface' => __DIR__ . '/..' . '/ramsey/uuid/src/Validator/ValidatorInterface.php',
+        'RenatoMarinho\\LaravelPageSpeed\\Entities\\HtmlSpecs' => __DIR__ . '/..' . '/laraspeed/page-speed/src/Entities/HtmlSpecs.php',
+        'RenatoMarinho\\LaravelPageSpeed\\Middleware\\CollapseWhitespace' => __DIR__ . '/..' . '/laraspeed/page-speed/src/Middleware/CollapseWhitespace.php',
+        'RenatoMarinho\\LaravelPageSpeed\\Middleware\\DeferJavascript' => __DIR__ . '/..' . '/laraspeed/page-speed/src/Middleware/DeferJavascript.php',
+        'RenatoMarinho\\LaravelPageSpeed\\Middleware\\ElideAttributes' => __DIR__ . '/..' . '/laraspeed/page-speed/src/Middleware/ElideAttributes.php',
+        'RenatoMarinho\\LaravelPageSpeed\\Middleware\\InlineCss' => __DIR__ . '/..' . '/laraspeed/page-speed/src/Middleware/InlineCss.php',
+        'RenatoMarinho\\LaravelPageSpeed\\Middleware\\InsertDNSPrefetch' => __DIR__ . '/..' . '/laraspeed/page-speed/src/Middleware/InsertDNSPrefetch.php',
+        'RenatoMarinho\\LaravelPageSpeed\\Middleware\\PageSpeed' => __DIR__ . '/..' . '/laraspeed/page-speed/src/Middleware/PageSpeed.php',
+        'RenatoMarinho\\LaravelPageSpeed\\Middleware\\RemoveComments' => __DIR__ . '/..' . '/laraspeed/page-speed/src/Middleware/RemoveComments.php',
+        'RenatoMarinho\\LaravelPageSpeed\\Middleware\\RemoveQuotes' => __DIR__ . '/..' . '/laraspeed/page-speed/src/Middleware/RemoveQuotes.php',
+        'RenatoMarinho\\LaravelPageSpeed\\Middleware\\TrimUrls' => __DIR__ . '/..' . '/laraspeed/page-speed/src/Middleware/TrimUrls.php',
+        'RenatoMarinho\\LaravelPageSpeed\\ServiceProvider' => __DIR__ . '/..' . '/laraspeed/page-speed/src/ServiceProvider.php',
         'SebastianBergmann\\CliParser\\AmbiguousOptionException' => __DIR__ . '/..' . '/sebastian/cli-parser/src/exceptions/AmbiguousOptionException.php',
         'SebastianBergmann\\CliParser\\Exception' => __DIR__ . '/..' . '/sebastian/cli-parser/src/exceptions/Exception.php',
         'SebastianBergmann\\CliParser\\OptionDoesNotAllowArgumentException' => __DIR__ . '/..' . '/sebastian/cli-parser/src/exceptions/OptionDoesNotAllowArgumentException.php',

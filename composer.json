@@ -35,7 +35,7 @@
         "psr-4": {
             "Tests\\": "tests/",
             "Silber\\PageCache\\": "page-cache-master/src/",
-            "RenatoMarinho\\LaravelPageSpeed\\": "laravel-page-speed-master/src/"
+            "RenatoMarinho\\LaravelPageSpeed\\": "laraspeed/page-speed/src/"
 
         }
     },
