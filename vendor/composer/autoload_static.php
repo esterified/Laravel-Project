@@ -328,7 +328,7 @@ class ComposerStaticInit12fa11a5d4824abfd45e355f134f730c
         ),
         'RenatoMarinho\\LaravelPageSpeed\\' => 
         array (
-            0 => __DIR__ . '/..' . '/laravel-page-speed-master/src',
+            0 => __DIR__ . '/../..' . '/laravel-page-speed-master/src',
         ),
         'Ramsey\\Uuid\\' => 
         array (

@@ -28,6 +28,7 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
+
         }
     },
     "autoload-dev": {
@@ -35,6 +36,7 @@
             "Tests\\": "tests/",
             "Silber\\PageCache\\": "page-cache-master/src/",
             "RenatoMarinho\\LaravelPageSpeed\\": "laravel-page-speed-master/src/"
+
         }
     },
     "scripts": {

@@ -177,7 +177,6 @@ return [
         App\Providers\FortifyServiceProvider::class,
         App\Providers\JetstreamServiceProvider::class,
         Silber\PageCache\LaravelServiceProvider::class,
-        RenatoMarinho\LaravelPageSpeed\ServiceProvider::class,
 
     ],
 
