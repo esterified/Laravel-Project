@@ -3,15 +3,13 @@
     "description": "Caches responses as static files on disk for lightning fast page loads.",
     "keywords": ["laravel", "cache"],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Joseph Silber",
-            "email": "contact@josephsilber.com"
-        }
-    ],
+    "authors": [{
+        "name": "Joseph Silber",
+        "email": "contact@josephsilber.com"
+    }],
     "autoload": {
         "psr-4": {
-            "Silber\\PageCache\\": "src/"
+            "Silber\\PageCache\\": "/page-cache-master/src/"
         }
     },
     "autoload-dev": {
