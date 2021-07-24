@@ -323,13 +323,11 @@ class ComposerStaticInit12fa11a5d4824abfd45e355f134f730c
         ),
         'Silber\\PageCache\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/page-cache-master/src',
-            1 => __DIR__ . '/..' . '/page-cache-master/src',
+            0 => __DIR__ . '/..' . '/page-cache-master/src',
         ),
         'RenatoMarinho\\LaravelPageSpeed\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/laraspeed/page-speed/src',
-            1 => __DIR__ . '/..' . '/laraspeed/page-speed/src',
+            0 => __DIR__ . '/..' . '/laraspeed/page-speed/src',
         ),
         'Ramsey\\Uuid\\' => 
         array (
