@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'asset_url' => '/vendor/livewire/livewire/dist/',
+    'asset_url' => null,
 
     /*
     |--------------------------------------------------------------------------
