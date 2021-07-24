@@ -1,0 +1,16 @@
+{
+    "name": "esterified/greeter",
+    "description": "awesome custom laravel package",
+    "autoload": {
+        "psr-4": {
+            "Esterified\\Greeter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fayed",
+            "email": "fayed1589@gmail.com"
+        }
+    ],
+    "require": {}
+}

@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 use App\Http\Controllers\khojController;
+use Esterified\Greeter\Greet;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,3 +27,9 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 //route for form action
 Route::middleware(['auth:sanctum', 'verified'])->post('/dashboard', [khojController::class, 'search'])->name('khoj');
+//route for custom esterified package
+Route::get('/greet/{name}', function ($name) {
+    $greet = new Greet();
+
+    return $greet->greet($name);
+});
